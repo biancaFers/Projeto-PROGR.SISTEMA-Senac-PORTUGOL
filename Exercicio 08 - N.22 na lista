@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro anoNascimento, anoAtual, idade, anosFaltam, anosPassaram
+
+		escreva("Qual é o ano atual? ")
+		leia(anoAtual)
+
+		escreva("Qual é o ano do seu nascimento? ")
+		leia(anoNascimento)
+
+		idade = anoAtual - anoNascimento
+		anosFaltam = 18 - idade
+		anosPassaram = idade - 18
+
+		se (idade < 18) {
+			escreva("Sua idade é " + idade + " anos,\n faltam " + anosFaltam + " anos para você fazer o alistamento militar.")
+		}
+		senao se (idade == 18) {
+			escreva("Sua idade é " + idade + " anos,\n você já tem idade suficiente para fazer o alistamento militar.")
+		}
+		senao {
+			escreva("Sua idade é " + idade + " anos,\n já se passaram " + anosPassaram + " ano(s) do alistamento militar.")
+		}
+  }
+}
