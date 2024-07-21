@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva(" Digite um numero inteiro: ")
+    leia(numero)
+
+    se(numero % 2 == 1 ) {
+      escreva("IMPAR\n")
+    }
+      senao{
+        escreva("PAR\n")
+      }
+  }
+}
