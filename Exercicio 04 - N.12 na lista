@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+    inteiro preco, precoPromocional
+
+    escreva("Digite o preço do produto: ")
+    leia(preco)
+    
+    precoPromocional = preco * 0.95
+    
+    escreva("O Preço Promocional com 5% de desconto é: R$", precoPromocional)
+
+  }
+}
