@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+
+    real distMetros, km, hm, dam, dm, cm, mm
+
+		escreva("Digite uma distância em metros: ")
+		leia(distMetros)
+
+		km = distMetros/ 10 / 10/ 10
+		hm = distMetros / 10 / 10
+		dam = distMetros * 10
+		dm = distMetros * 10
+		cm = distMetros * 100
+		mm = distMetros * 1000
+
+		escreva("A Distância de " + distMetros + " corresponde a:\n " + km + " Km,\n " + hm + " Hm,\n " + dam + " Dam,\n " + dm + " dm,\n " + cm + " cm,\n" + mm + " mm,\n ")
+  }
+}
