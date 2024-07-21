@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro cigarrosPorDia, anos, diasPerdidos, vida
+
+		escreva("Quantos cigarros voce fuma por dia? ")
+		leia(cigarrosPorDia)
+
+		escreva("Há quanto tempo voce fuma? ")
+		leia(anos)
+
+		diasPerdidos = cigarrosPorDia * anos * 365 * 10
+		vida = diasPerdidos / 60 / 24
+
+		escreva("A pessoa que fuma "+ cigarrosPorDia +" cigarros por dia durante " + anos + " anos perde " + vida + " dias de sua vida.")
+	}
+}
