@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    inteiro valorDesconto, valorCompras
+    cadeia nome, sexo
+    
+    escreva("Digite o nome do cliente : " )
+    leia(nome)
+    
+    escreva("Digite o sexo do cliente (M para Masculino, F para Feminino) : " )
+    leia(sexo)
+
+    escreva(" Digite o valor das compras: " )
+    leia(valorCompras)
+
+    se (sexo == 'M' ou sexo == 'm')
+        {
+         valorDesconto = valorCompras * 0.95
+        }
+        senao se (sexo == 'F' ou sexo == 'f')
+        {
+         valorDesconto = valorCompras * 0.87
+        }
+        escreva("Nome: ", nome, "\n")
+        escreva("Sexo: ", sexo, "\n")
+        escreva("Valor das compras: R$ ", valorCompras, "\n")
+        escreva("Valor com desconto: R$ ", valorDesconto, "\n")
+  }
+}
