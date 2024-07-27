@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+		real salario, anos, aumento
+    cadeia nome
+
+		escreva("Digite nome do funcionário(a)?\n ")
+		leia(nome)
+
+		escreva("Digite o salário do funcionário(a)?\n ")
+		leia(salario)
+
+		escreva("Há quantos anos o(a) funcionário(a) trabalha na empresa?\n ")
+		leia(anos)
+
+		se (anos <= 3) {
+			aumento = salario + (salario * 3 / 100)
+			escreva("O(A) funcionário(a) " +nome+ " irá receber um reajuste de 3%, seu novo salário será R$"+aumento+".") 
+		}
+		senao se (anos > 3 e anos < 10) {
+			aumento = salario + (salario * 12.5 / 100)
+			escreva("O(A) funcionário(a) " +nome+ " irá receber um reajuste de 12.5%, seu novo salário será de R$" +aumento+".")
+		}
+		senao {
+			aumento = salario + (salario * 20 / 100)
+			escreva("O(A) funcionário(a) " +nome+ " irá receber um reajuste de 20%, seu novo salário será de R$" +aumento+".")
+		}
+	}
+}
