@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+     inteiro valor1, valor2, soma
+
+    escreva("Digite um valor:\n")
+    leia(valor1)
+
+    escreva("Digite outro valor:\n")
+    leia(valor2)
+
+    soma = valor1 + valor2
+
+    escreva("A soma entre "+ valor1 +" e "+ valor2 +", é igual a "+ soma + ".")
+
+  }
+}
