@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro anoNascimento, anoAtual, idade, podeVotar, naoPode
+
+		escreva("Qual é o ano atual? ")
+		leia(anoAtual)
+
+		escreva("Qual é o ano do seu nascimento? ")
+		leia(anoNascimento)
+
+		idade = anoAtual - anoNascimento
+		podeVotar = 18 - idade
+		naoPode = idade - 18
+
+		se (idade < 18) {
+			escreva("Sua idade é " + idade + " anos,\n Você ainda NÃO pode Votar.")
+		}
+		senao {
+			escreva("Sua idade é " + idade + " anos,\n Você tem idade suficiente,\n Já PODE Votar!.")
+		}
+  }
+}
