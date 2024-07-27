@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro nota1, nota2, media
+
+		escreva("Digite a primeira nota: ")
+		leia(nota1)
+
+		escreva("Digite a segunda nota: ")
+		leia(nota2)
+
+		media = (nota1 + nota2)/2
+
+		se (media < 4.9) {
+			 escreva("A nota média foi " + media + ", O aluno foi REPROVADO.")
+
+		}
+		 senao se (media > 5 e media < 6.9) {
+			escreva("A nota média foi " + media + ", O aluno está de RECUPERAÇÃO.")
+
+		}
+		senao {
+			escreva("A nota média foi " + media + ", O aluno foi APROVADO.")
+		}
+	}
+}
