@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    real dinheiro, dolar, conversao
+    inteiro dinheiro, dolar, conversao
 
 		escreva("Quanto dinheiro você tem em sua conta?\n")
 		leia(dinheiro)
