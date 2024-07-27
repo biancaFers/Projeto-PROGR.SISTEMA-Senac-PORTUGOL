@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real dinheiro, dolar, conversao
+
+		escreva("Quanto dinheiro você tem em sua conta?\n")
+		leia(dinheiro)
+
+		dolar= 3.45
+    1.00==3.45
+		conversao = dinheiro / dolar
+
+		escreva("Com o valor de R$" + dinheiro + " da sua carteira,\n Você pode comprar US$" + conversao+" dolares.")
+		
+  }
+}
