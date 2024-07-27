@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real nota1, nota2, notaFinal
+
+    escreva("Nota 1:\n")
+    leia(nota1)
+
+    escreva("Nota 2:\n")
+    leia(nota2)
+
+   notaFinal= (nota1 + nota2)/2
+
+   escreva(" A Media entre "+nota1+" e "+nota2+" é igual a "+notaFinal+".") 
+   
+  }
+}
