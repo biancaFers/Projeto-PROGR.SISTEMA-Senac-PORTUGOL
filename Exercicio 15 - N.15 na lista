@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+
+    inteiro dias, salario
+
+		escreva("Quantos dias o funcionário trabalhou neste mês?\n")
+		leia(dias)
+
+    
+		salario = dias * (8 * 25)
+
+		escreva("O salário do funcionário este mês é R$"+ salario+".")
+  }
