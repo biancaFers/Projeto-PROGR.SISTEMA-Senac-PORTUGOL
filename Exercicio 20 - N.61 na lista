@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro contador
+		para (contador = 100; contador >= 0; contador -= 10) {
+			escreva(contador," ")
+		}
+		escreva("ACABOU!")
+	}
+}
+  
