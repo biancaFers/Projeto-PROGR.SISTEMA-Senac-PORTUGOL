@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero, contador
+        escreva("Digite um Valor:\n")
+        leia(numero)
+
+        escreva(" Contagem:")
+        
+        para(inteiro contador = 0; contador <= numero; contador++)
+        {
+            escreva(contador ,", ")
+        }
+        escreva("FIM!")
+  }
+}     
