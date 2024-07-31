@@ -6,7 +6,7 @@ programa {
 
         escreva(" Contagem:")
         
-        para(inteiro contador = 0; contador <= numero; contador++)
+        para(contador = 0; contador <= numero; contador++)
         {
             escreva(contador ,", ")
         }
