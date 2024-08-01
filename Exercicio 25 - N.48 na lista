@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro contador, numero, impar, par
+
+    contador = 1
+    impar = 0
+    par = 0
+
+		enquanto (contador <= 6) {
+			escreva("Digite o " +contador+ "º número: ")
+			leia(numero)
+
+			se (numero % 2 == 0) {
+				par = par + 1
+			}
+			senao {
+				impar = impar + 1
+      }
+			contador = contador + 1
+    }
+		escreva("\nTotal de pares: " + par)
+		escreva("\nTotal de ímpares: " + impar)
+  }
+	}
