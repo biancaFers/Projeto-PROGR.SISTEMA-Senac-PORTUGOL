@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+   inteiro numero
+
+		numero = 30
+
+		enquanto (numero >= 0) {
+			se (numero % 4 == 0) {
+				escreva("["+numero+"] ")
+			}
+			senao {
+				escreva(numero," ")
+			}
+			numero = numero - 1
+		}
+		escreva("FIM DA CONTAGEM!") 
+  }
+}
