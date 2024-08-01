@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro contador, numero, soma
+
+		contador = 1
+		soma = 0 
+
+		enquanto (contador <= 7) {
+			escreva("Digite o "+ contador + "º número: ")
+			leia(numero)
+
+			contador = contador + 1
+			soma = soma + numero
+   
+		}
+		escreva("A soma dos números informados é de "+soma+"")
+	}
+}
