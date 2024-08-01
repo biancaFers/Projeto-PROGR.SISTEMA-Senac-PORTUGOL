@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real distancia, passagem, passLonga
+
+		escreva("Qual é a distância em KM que você deseja percorrer?\n")
+		leia(distancia)
+
+		passagem = distancia * 0.50
+		passLonga = distancia * 0.45
+
+		se (distancia <= 200) {
+			escreva("Sua distância percorrida será de " +distancia+ "km, e o valor cobrado será de R$" +passagem+"")
+		}
+		senao {
+			escreva("Sua distância percorrida será de " +distancia+ "km, e o valor cobrado será de R$" +passLonga+"")
+		}
+  }
+}
