@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro contador, soma
+
+		contador = 6
+		soma = 0
+
+		enquanto (contador <= 100) {
+			escreva(contador," + ")
+
+			contador = contador + 2
+			soma = soma + contador
+		}
+		escreva("\n= "+ soma)
+	} 
+}
