@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro contador, soma
+
+		contador = 6
+
+		enquanto (contador <= 11) {
+			escreva(contador, " ")
+
+      contador++
+		}
+		escreva("Acabou!")
+	} 
+}
